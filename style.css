@@ -1,0 +1,144 @@
+@import url();
+@import url();
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+height: 100vh;
+display: flex;
+}
+
+.container{
+display: flex;
+width: 400px;
+flex-direction: column;
+margin: auto;
+justify-content: center;
+border-radius: 6px;
+}
+div{
+width: 100%;
+height: 375px;
+padding: 25px;
+}
+.blockA{
+background-color: hsl(31, 77%, 52%);
+border-radius:10px 10px 0 0
+
+}
+.blockB{
+background-color: hsl(184, 100%, 22%);
+
+}
+.blockC{
+background-color:hsl(179, 100%, 13%);
+border-radius: 0 0 10px 10px 
+}
+
+img{
+height: 50px;
+width: 30px;
+margin: 12px 0;
+}
+h1{
+font-family: "Big Shoulders Display";
+font-weight: 700px;
+color: hsl(0, 0%, 95%);
+margin: 20px 0;
+}
+p{
+font-family:"Lexend Deca";
+font-weight: 400px;
+font-size: 15px;
+color: hsl(0, 0%, 100%, 0.75);
+margin: 20px;
+}
+button{
+background-color: hsl(0, 0%, 95%);
+border: 1px solid;
+border-color: hsl(0, 0%, 95%);
+border-radius: 30px;
+padding: 15px 33px;
+margin: 10px 0;
+font-weight: 400px;
+}
+.blockA button{
+color: hsl(31, 77%, 52%);
+}
+
+.blockA button:hover{
+background-color: hsl(31, 77%, 52%);
+color: hsl(0, 0%, 95%);
+padding: 15px 33px;
+border: 1.5px solid;
+border-color: hsl(0, 0%, 95%);
+cursor: pointer;
+}
+
+.blockB{
+color: hsl(184, 100%, 22%);
+
+}
+.blockB button:hover{
+     background-color: hsl(184, 100%, 22%);
+     color: hsl(0, 0%, 95%);
+     padding: 15px 33px;
+     border: 1.5px solid;
+     border-color: hsl(0, 0%, 95%);
+     cursor: pointer;
+}
+
+.blockC{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.blockC button:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    padding: 15px 33px;
+    border: 1.5px solid;
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+@media screen and (min-width:800px) {}
+    body{
+        display: flex;
+}
+
+.container {
+display: flex;
+flex-direction: row;
+width: 750px;
+height: 375px;
+}
+
+div {
+width: 250px;
+height: 400px;
+    padding: 25px;
+}
+.blockA {
+    border-radius: 10px 0px 0px 10px;
+}
+.blockC {
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
